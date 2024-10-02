@@ -1,0 +1,106 @@
+body{
+   background-color: hsl(30, 38%, 92%);
+   display: grid;
+   grid-template-columns: 1;
+}
+article{
+   display: grid;
+   grid-template-columns: 2;
+   background-color: hsl(0, 0%, 100%);
+   /* margin-left: 420px; */
+   /* margin-top: 115px; */
+   margin: auto;
+   margin-top: 120px;
+   width: 26rem;
+   border-radius: 10px;
+   height: 70%;
+}
+#perfume{
+   grid-column: 1;
+   width: 190px;
+   height: 98%;
+   border-top-left-radius: 10px;
+   border-bottom-left-radius: 10px;
+}
+section{
+   grid-column: 2;
+   width: 160px;
+}
+h1{
+   font-size: 20px;
+}
+#content{
+   font-size: 14px;
+}
+#price{
+   font-weight: bold;
+   font-size: 25px;
+   color: hsl(158, 36%, 37%);
+}
+span{
+   padding-right: 10px;
+}
+#per{
+   font-family: 'Courier New', Courier, monospace;
+}
+#addcart{
+   background-color: hsl(158, 36%, 37%);
+   color: white;
+   border-radius: 5px;
+   width: 145px;
+}
+#addcart p{
+   margin-left: 5px;
+   padding-left: 5px;
+}
+
+@media (max-width:450px){
+   article{
+      width: 20rem;
+      height: 37rem;
+      margin-top: 4px;
+      display: grid;
+      grid-template-columns: 1;
+      grid-template-rows: 2;
+   }
+   #perfume{
+      grid-column: 1;
+      width: 19rem;
+      height: 17rem;
+      margin: auto;
+   }
+   #all{
+      grid-column: 1;
+      grid-row: 2;
+      text-align: left;
+      width: 90%;
+      margin: 3px 20px;
+   }
+   #per{
+      font-family: 'Courier New', Courier, monospace;
+      margin: 6px;
+   
+   }
+   h1{
+font-size:xx-large;
+padding: 0;
+margin: 0;
+   }
+   #content{
+      font-size: 18px   }
+      #addcart{
+         background-color: hsl(158, 36%, 37%);
+         color: white;
+         border-radius: 5px;
+         width: 95%;
+         padding: 0.2px;
+         text-align: center;
+      }
+
+      #price{
+         font-weight: bold;
+         font-size: 30px;
+      }
+}
+
+
